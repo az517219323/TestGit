@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 354b61a2693ee4c4897158a3ccf42ecd
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: test_a_hair_002_c01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root
+      parentName: test_a_hair_002_c01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -2.7925732e-15, z: -1.7099578e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hip
+      parentName: Root
+      position: {x: -9.549602e-17, y: 0.6365614, z: -0.01709824}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: BN_Pelvis
+      parentName: Hip
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.4999993, w: 0.5000007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BN_Spine02
+      parentName: BN_Pelvis
+      position: {x: -0.080691695, y: 0.01662419, z: 0.00000005067585}
+      rotation: {x: -0.0000013073284, y: 0.0000006454922, z: 0.043619365, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BN_Spine03
+      parentName: BN_Spine02
+      position: {x: -0.091331184, y: -0.00012410805, z: -3.46148e-10}
+      rotation: {x: 0.000000007608549, y: -0.00000009433064, z: 0.034899358, w: 0.99939084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BN_Neck
+      parentName: BN_Spine03
+      position: {x: -0.12576312, y: -0.0314695, z: -0.000000010788909}
+      rotation: {x: -0.000000043011564, y: 0.0000002832251, z: -0.104528844, w: 0.99452186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BN_Head
+      parentName: BN_Neck
+      position: {x: -0.09643841, y: 0.00057925284, z: 0.000000001822599}
+      rotation: {x: -0.0000007048351, y: -0.00000010082358, z: 0.026178163, w: 0.99965733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BN_Hair_M
+      parentName: BN_Head
+      position: {x: -0.22777905, y: 0.03701046, z: -0.00003373623}
+      rotation: {x: 0.5217601, y: -0.47724888, z: -0.5217592, w: -0.47724968}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: BN_Hair_L_001
+      parentName: BN_Hair_M
+      position: {x: -0.2621083, y: -0.1070112, z: -0.18499172}
+      rotation: {x: 0.08276772, y: -0.024274206, z: 0.57513446, w: 0.81349903}
+      scale: {x: 0.99999964, y: 1, z: 0.9999999}
+    - name: BN_Hair_L_002
+      parentName: BN_Hair_L_001
+      position: {x: -0.17254654, y: -0.00000023990287, z: -0.00000016364629}
+      rotation: {x: -0.002086773, y: -0.034144573, z: -0.008405618, w: 0.9993794}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: BN_Hair_L_003
+      parentName: BN_Hair_L_002
+      position: {x: -0.1538799, y: 0.000000076408924, z: 0.00000014278748}
+      rotation: {x: -0.0002065564, y: -0.052345138, z: 0.004022752, w: 0.9986209}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: BN_Hair_R_001
+      parentName: BN_Hair_M
+      position: {x: 0.2614123, y: -0.107226714, z: -0.15926564}
+      rotation: {x: 0.064637974, y: -0.11262536, z: 0.8071609, w: 0.57587224}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999999}
+    - name: BN_Hair_R_002
+      parentName: BN_Hair_R_001
+      position: {x: -0.17345424, y: 0.00000021860251, z: 0.000000012201113}
+      rotation: {x: 0.00033968754, y: -0.0064739357, z: 0.022593783, w: 0.99972373}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BN_Hair_R_003
+      parentName: BN_Hair_R_002
+      position: {x: -0.15703794, y: -0.00000008103552, z: 0.000000022388946}
+      rotation: {x: -0.00026842966, y: -0.022901697, z: -0.011685877, w: 0.9996694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone001
+      parentName: BN_Head
+      position: {x: -0.32405296, y: -0.17304367, z: 0.2605387}
+      rotation: {x: -0.3775478, y: 0.41672856, z: 0.5978769, w: 0.57126015}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: Bone002
+      parentName: Bone001
+      position: {x: -0.16285299, y: 0, z: 1.3011459e-10}
+      rotation: {x: 0, y: 0, z: 0.55541486, w: 0.8315734}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: Bone003
+      parentName: BN_Head
+      position: {x: -0.32405275, y: -0.1730428, z: -0.25683963}
+      rotation: {x: 0.57125956, y: 0.59787667, z: 0.4167289, w: -0.3775487}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Bone004
+      parentName: Bone003
+      position: {x: -0.162853, y: 0.000000059604645, z: 0}
+      rotation: {x: 0.00000003677278, y: -0.00000018468864, z: -0.5554147, w: 0.83157355}
+      scale: {x: 0.99999976, y: 1, z: 0.9999997}
+    - name: BN_Shoulder_L
+      parentName: BN_Spine03
+      position: {x: -0.107379735, y: -0.031829633, z: 0.008993781}
+      rotation: {x: -0.69441897, y: -0.020858463, z: 0.71900165, w: 0.019592386}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: BN_Shoulder_R
+      parentName: BN_Spine03
+      position: {x: -0.107379735, y: -0.031829573, z: -0.008993956}
+      rotation: {x: 0.694419, y: 0.020856416, z: 0.7190017, w: 0.019590478}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

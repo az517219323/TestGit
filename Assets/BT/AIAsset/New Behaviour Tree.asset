@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: New Behaviour Tree
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":544.0,"y":253.6667},"$type":"NodeCanvas.BehaviourTrees.Sequencer"},{"_condition":{"eventId":6001,"arg_0":2.0,"arg_1":2.0,"arg_2":5.0,"arg_3":6.0,"arg_4":7.0,"$type":"EventCondition"},"_position":{"x":115.3281,"y":400.3529},"$type":"NodeCanvas.BehaviourTrees.ConditionNode"},{"_action":{"eventId":2001,"arg_0":5.0,"arg_1":3.0,"arg_2":2.0,"$type":"EventAction"},"_position":{"x":619.4764,"y":441.5417},"$type":"NodeCanvas.BehaviourTrees.ActionNode"}],"connections":[],"canvasGroups":[],"localBlackboard":{"_variables":{"List":{"_value":[null,null,null,null],"_name":"List","_id":"ab3ed690-1644-461d-ae45-fbfbe4a785e9","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Save
+    As":{"_name":"Save As","_id":"d9c1daa0-7e7e-4d45-b8ea-3151d1827526","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Target
+    List":{"_name":"Target List","_id":"15c46e0f-aec2-4aad-97da-48eed5bf8145","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[System.Int32,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"myString":{"_value":"3","_name":"myString","_id":"2afbf231-cbab-4f6a-ae6d-75da718db6ee","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.22
+    _category: 
+    _comments: 
+    _translation: {x: 474, y: 120}
+    _zoomFactor: 0.60696423
+  _haltSerialization: 0
